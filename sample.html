@@ -1,0 +1,16 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html ng-app="includeModule">
+<head>
+	 <script src="Scripts/1.js"></script>
+	 <script src="Scripts/includeDemo.js"></script>
+	 <link href="style.css" rel="stylesheet"></link>
+  </head>	    
+
+<body >
+   <div ng-controller="includeController">
+      <div ng-include="'EmployeeTable.html'">
+      </div>
+   </div>
+</body>
+</html>
